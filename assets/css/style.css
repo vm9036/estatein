@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Urbanist';
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* header section starts */
+
+.header_wrapper {
+    background: #000 url(../images/background-header-1.png) no-repeat center;
+    background-size: cover;
+}
+
+.header_main_wrapper {
+    padding: 18px 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.header_main_wrapper p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.header_main_wrapper .learn_more {
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+
+.header_main_wrapper img {
+    margin-left: 150px;
+}
+
+
+/* navbar starts*/
+
+.navbar {
+    background: rgba(26, 26, 26, 1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar_main_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 162px;
+}
+
+.navbar_logo img {
+    width: 160px;
+    height: 48px;
+}
+
+.navbar_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar_menu ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.home_link {
+    background: rgba(20, 20, 20, 1);
+    border: 1px solid rgba(38, 38, 38, 1);
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+
+.navbar_button a {
+    background: rgba(20, 20, 20, 1);
+    border: 1px solid rgba(38, 38, 38, 1);
+    padding: 16px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* navbar ends */
+
+/* header section ends */
+
+/* hero section starts */
+
+.hero_section {
+    background: rgba(26, 26, 26, 1);
+}
+
+.main_hero_sec{
+    padding: 0px 162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.item{
+    /* flex: 1; */
+    width: 50%;
+}
+
+.hero_img img{
+    width: 800px;
+    height: 753px;
+}
+/* hero section ends */
