@@ -1,0 +1,46 @@
+
+@media (max-width: 1440px) {
+    .container{
+        width: 1440px;
+    }
+
+    /* header section starts */
+    
+    .header_main_wrapper {
+        padding: 18px 0px;
+    }
+
+    .header_main_wrapper img {
+        right: 20px;
+    }
+
+    /* navbar starts*/
+
+    .navbar_main_wrapper {
+        padding: 14px 80px;
+    }
+
+    .navbar_logo img {
+        width: 113px;
+        height: 34px;
+    }
+
+    .navbar_menu ul li a {
+        font-size: 14px;
+    }
+
+    .home_link {
+        padding: 12px 20px;
+    }
+
+    .navbar_button a {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    /* navbar ends*/
+
+    /* header section ends */
+
+    
+}
